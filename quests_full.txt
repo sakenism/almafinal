@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="false"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.saken.vst.Quests">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/menu_general"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonQuestsShop"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_main"
+                android:text="@string/quest_shopping"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/text_main"
+                android:textSize="30dp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonQuestsBus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_main"
+                android:text="@string/quest_food"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/text_main"
+                android:textSize="30dp"
+                android:visibility="visible" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_main"
+                android:text="@string/quest_amusement"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/text_main"
+                android:textSize="30dp"
+                android:visibility="visible" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_main"
+                android:text="@string/quest_extreme"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/text_main"
+                android:textSize="30dp"
+                android:visibility="visible" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_main"
+                android:text="@string/quest_mountains"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/text_main"
+                android:textSize="30dp"
+                android:visibility="visible" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_main"
+                android:text="@string/quest_park"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/text_main"
+                android:textSize="30dp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonQuestsHistory"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_main"
+                android:text="@string/quest_history"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/text_main"
+                android:textSize="30dp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
